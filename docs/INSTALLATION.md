@@ -20,6 +20,12 @@ Make sure to allow the following urls:
         "https://www.gstatic.com/firebasejs/6.3.3/firebase-messaging.js"
     ]
 ],
+ "connect-src" => [
+    "self" => true,
+    "allow" => [
+        "https://fcm.googleapis.com/"
+    ]
+],
 ```
  
 
